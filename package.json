@@ -1,0 +1,22 @@
+{
+  "name": "world-without-birds",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.jsx --host 0.0.0.0",
+    "render": "remotion render src/index.jsx Birds out/world-without-birds.mp4 --gl=swangle --concurrency=2 --codec=h264 --crf=20",
+    "still": "remotion still src/index.jsx Birds out/preview.png --gl=swangle"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.1.2",
+    "@remotion/cli": "4.0.427",
+    "@remotion/three": "4.0.427",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.427",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^153.0.0"
+  }
+}
