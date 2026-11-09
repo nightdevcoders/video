@@ -1,5 +1,5 @@
 import React from 'react';
 import {Composition, registerRoot} from 'remotion';
-import {Birds} from './video';
+import {PhotoVideo} from './photo-video';
 
-registerRoot(() => <Composition id="Birds" component={Birds} durationInFrames={1440} fps={24} width={960} height={540} />);
+registerRoot(() => <Composition id="Birds" component={PhotoVideo} durationInFrames={1440} fps={24} width={1280} height={720} />);

@@ -1,0 +1,23 @@
+// Times are in seconds on the final timeline. Edit here to change the burned-in captions.
+export const captions = [
+  [0.8,3.7,'Imagine waking up to a world without birds.'],
+  [3.7,5.1,'No dawn chorus.'],
+  [5.1,6.5,'No wings against the sky.'],
+  [6.5,9.3,'The silence is only the beginning.'],
+  [9.7,12.0,'First, insects could surge.'],
+  [12.0,15.0,'Many birds eat vast numbers of insects,'],
+  [15.0,17.0,'helping keep populations in check.'],
+  [17.0,20.45,'Without them, crops and forests would face greater pressure.'],
+  [20.6,23.0,'Then, plants would feel the loss.'],
+  [23.0,26.6,'Some depend on birds to carry pollen or spread seeds.'],
+  [26.6,30.65,'Their forests could slowly change, and struggle to renew.'],
+  [31.0,33.8,'Scavenger birds clean up carcasses.'],
+  [33.8,36.0,'Without them, decay would linger longer,'],
+  [36.0,39.0,'and the risk of disease could rise in some places.'],
+  [40.0,43.5,'From oceans to cities, food webs would shift.'],
+  [43.5,45.6,'Predators would lose their prey,'],
+  [45.6,48.1,'and ecosystems would have to find a new balance.'],
+  [49.0,52.8,'A world without birds would be quieter, but also more fragile.'],
+  [52.8,55.1,'Protect their habitats today,'],
+  [55.1,57.2,'and keep the sky alive tomorrow.'],
+];
